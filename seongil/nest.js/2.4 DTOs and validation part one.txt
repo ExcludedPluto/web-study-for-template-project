@@ -1,0 +1,16 @@
+Create 시 들어오는 데이터를 DTO로 지정하자.
+
+	dto 폴더 생성
+
+	create-movie.dto.ts 파일 생성
+
+	다음처럼 초기 코드 작성
+	
+	export class CreateMovieDto {
+  		readonly title: string;
+  		readonly year: number;
+  		readonly genres: string[];
+	}
+
+
+
